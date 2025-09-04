@@ -1,7 +1,4 @@
 # Digit Recognition
-Handwritten Digit Recognition using OpenCV, sklearn and Python | [Video](https://www.youtube.com/watch?v=ur6JY2Hl-MM)
-
-**Check out the blog post [here](http://hanzratech.in/python/handwritten-digit-recognition-using-opencv-sklearn-and-python/) for complete notes on how the code works.**
 
 # Dependencies
 1. `cv2`
@@ -45,12 +42,13 @@ python performRecognition.py -c digits_cls.pkl -i photo_1.jpg
 ## Results
 
 ### Sample Image 1
-![Result Number 1](http://hanzratech.in/figures/digit-reco-1-out.png)
+![Result Number 1](/digit-reco-1-out.png)
 ### Sample Image 2
-![Result Number 2](http://hanzratech.in/figures/digit-reco-2.png)
+![Result Number 2](/digit-reco-2.png)
 
 ## TODO
 
 * Add a CNN Based approach
 * Reject bounding boxes lesser than some area
 * Look into user errors
+
